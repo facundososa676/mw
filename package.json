@@ -1,0 +1,25 @@
+{
+  "name": "mw",
+  "version": "1.0.0",
+  "description": "Ejemplo de una página web que brinda información sobre una empresa ficticia en el sector de la moda. El diseño fue hecho en Figma, basado en diferentes páginas de empresas que están en el mismo sector. El objetivo es mostrar una de las posibles maneras de abordar un sitio web de este rubro y uno de los posibles diseños que puede tener.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facundososa676/mw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facundososa676/mw/issues"
+  },
+  "homepage": "https://github.com/facundososa676/mw#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

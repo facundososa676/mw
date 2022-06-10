@@ -1,0 +1,35 @@
+.botones {
+    background-color: #000;
+    color: #fff;
+
+    text-decoration: none;
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    
+    padding: 8px 6px 6px;
+}
+
+.boton-home {
+    display: flex;
+    justify-self: center;
+}
+
+.botones-s2 {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    margin-bottom: 20px;
+
+    font-size: 20px;
+}
+
+.boton-s3 {
+    justify-self: end;
+    align-self: flex-end;
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+
+    width: max-content;
+}

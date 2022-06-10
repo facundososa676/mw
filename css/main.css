@@ -1,0 +1,209 @@
+body {
+  background-color: #FFE6E6;
+  margin: 0%;
+  padding: 0%; }
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#navegador {
+  background-color: #F2D1D1; }
+  #navegador .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%; }
+
+#seccion-1 {
+  background-image: url(../img/portadas/portada-home-m.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%; }
+  #seccion-1 .s1-wrapper {
+    display: grid;
+    justify-content: flex-end;
+    grid-template-columns: 220px;
+    grid-template-rows: 260px 107px; }
+    #seccion-1 .s1-wrapper .s1-cont-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: flex-end; }
+    #seccion-1 .s1-wrapper .s1-cont-2 {
+      display: flex;
+      justify-content: end;
+      align-items: flex-end; }
+
+.redes-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%; }
+  .redes-container .redes-items {
+    margin: 0px 5px; }
+
+#seccion-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #seccion-2 .s2-container-1 {
+    background-image: url(../img/portadas/portada-ne-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 226px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 0%;
+    margin-bottom: 40px; }
+  #seccion-2 .s2-container-2 {
+    background-image: url(../img/portadas/portada-ne-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 226px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 40px 0px; }
+  #seccion-2 .s2-container-3 {
+    background-image: url(../img/portadas/portada-ne-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 226px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 40px 0px; }
+
+#seccion-3 {
+  background-image: url(../img/portadas/banner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
+#seccion-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #seccion-4 .img-qs {
+    width: 100%;
+    height: 145px;
+    opacity: 0.80; }
+
+#footer {
+  display: grid;
+  justify-content: center;
+  align-items: center; }
+
+.footer-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/* TITULOS */
+.titulo-header-1 {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin-top: 32px;
+  margin-bottom: 8px; }
+
+.titulo-header-2 {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 32px; }
+
+.titulos-secciones {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px; }
+
+.titulos-s1 {
+  font-family: 'Merriweather', 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin: 10px 0px; }
+
+.titulo-s2 {
+  margin-top: 60px;
+  margin-bottom: 40px; }
+
+.titulo-s3 {
+  font-size: 16px;
+  color: #fff;
+  width: max-content; }
+
+.titulo-s4 {
+  margin-top: 60px;
+  margin-bottom: 20px; }
+
+/* TEXTOS */
+.textos-nav-container {
+  margin: 6px 8px; }
+
+.textos-nav {
+  text-decoration: none;
+  font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000; }
+
+.textos-s3-container {
+  margin-left: 8px;
+  width: 106px; }
+
+.texto-s3 {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  color: #fff; }
+
+.texto-s4 {
+  margin: 0px 24px;
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 24px; }
+
+.botones {
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  padding: 8px 6px 6px; }
+
+.boton-home {
+  display: flex;
+  justify-self: center; }
+
+.botones-s2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px; }
+
+.boton-s3 {
+  justify-self: end;
+  align-self: flex-end;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: max-content; }

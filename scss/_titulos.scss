@@ -1,24 +1,33 @@
 /* TITULOS */
 
-.titulo-header-1 {
+.titulo-marca {
     font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif; 
     font-size: 24px;
+}
 
+.titulo-slogan {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+
+
+.titulo-header-1 {
     margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .titulo-header-2 {
-    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-
     margin-top: 8px;
     margin-bottom: 32px;
 }
 
+
+
 .titulos-secciones {
     font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    text-align: center;
 }
 
 .titulos-s1 {
@@ -42,6 +51,22 @@
 
 .titulo-s4 {
     margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+#footer {
+    background-color: $color-2;
+    margin-top: 80px;
+}
+
+.titulo-footer-1 {
+    margin-bottom: 20px; 
+}
+
+.titulo-footer-2 {
+    margin-top: 0%;
     margin-bottom: 20px;
 }
 

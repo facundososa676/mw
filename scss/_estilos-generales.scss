@@ -1,0 +1,33 @@
+/* ESTILOS GENERALES */
+
+.redes-container {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+
+    padding: 0%;
+    margin: 0%;
+
+    .redes-items {
+        margin: 0px 5px;
+    }
+}
+
+.linea {
+    border-top: 2px solid #000;
+    padding: 0;
+}
+
+.linea-s4 {
+    height: 32px;
+    margin-top: 8px;
+    width: 186px;
+    justify-self: center;
+}
+
+.linea-footer {
+    height: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+}

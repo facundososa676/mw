@@ -33,23 +33,14 @@ body {
     grid-template-columns: 220px;
     grid-template-rows: 260px 107px; }
     #seccion-1 .s1-wrapper .s1-cont-1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: end;
-      align-items: flex-end; }
+      display: grid;
+      grid-template-rows: 28px 28px 28px 28px 60px;
+      align-content: flex-end;
+      justify-content: flex-end; }
     #seccion-1 .s1-wrapper .s1-cont-2 {
       display: flex;
       justify-content: end;
       align-items: flex-end; }
-
-.redes-container {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  padding: 0%;
-  margin: 0%; }
-  .redes-container .redes-items {
-    margin: 0px 5px; }
 
 #seccion-2 {
   display: flex;
@@ -100,8 +91,7 @@ body {
   grid-template-columns: 2fr 1fr; }
 
 #seccion-4 {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   justify-content: center;
   align-items: center; }
   #seccion-4 .img-qs {
@@ -112,7 +102,8 @@ body {
 #footer {
   display: grid;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding: 40px 60px; }
 
 .footer-container-1 {
   display: flex;
@@ -121,21 +112,26 @@ body {
   align-items: center; }
 
 /* TITULOS */
-.titulo-header-1 {
+.titulo-marca {
   font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
-  font-size: 24px;
+  font-size: 24px; }
+
+.titulo-slogan {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px; }
+
+.titulo-header-1 {
   margin-top: 32px;
   margin-bottom: 8px; }
 
 .titulo-header-2 {
-  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
   margin-top: 8px;
   margin-bottom: 32px; }
 
 .titulos-secciones {
   font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: center; }
 
 .titulos-s1 {
   font-family: 'Merriweather', 'Times New Roman', Times, serif;
@@ -153,6 +149,17 @@ body {
 
 .titulo-s4 {
   margin-top: 60px;
+  margin-bottom: 20px; }
+
+#footer {
+  background-color: #F2D1D1;
+  margin-top: 80px; }
+
+.titulo-footer-1 {
+  margin-bottom: 20px; }
+
+.titulo-footer-2 {
+  margin-top: 0%;
   margin-bottom: 20px; }
 
 /* TEXTOS */
@@ -182,6 +189,16 @@ body {
   line-height: 24px;
   margin-bottom: 24px; }
 
+.textos-footer {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px; }
+
+.copy {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 16px; }
+
 .botones {
   background-color: #000;
   color: #fff;
@@ -192,7 +209,8 @@ body {
 
 .boton-home {
   display: flex;
-  justify-self: center; }
+  justify-self: flex-start;
+  align-self: end; }
 
 .botones-s2 {
   display: flex;
@@ -207,3 +225,28 @@ body {
   margin-right: 8px;
   margin-bottom: 8px;
   width: max-content; }
+
+/* ESTILOS GENERALES */
+.redes-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%; }
+  .redes-container .redes-items {
+    margin: 0px 5px; }
+
+.linea {
+  border-top: 2px solid #000;
+  padding: 0; }
+
+.linea-s4 {
+  height: 32px;
+  margin-top: 8px;
+  width: 186px;
+  justify-self: center; }
+
+.linea-footer {
+  height: 30px;
+  max-width: 100%;
+  margin-top: 40px; }

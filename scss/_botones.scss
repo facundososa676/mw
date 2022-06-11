@@ -11,7 +11,8 @@
 
 .boton-home {
     display: flex;
-    justify-self: center;
+    justify-self: flex-start;
+    align-self: end;
 }
 
 .botones-s2 {

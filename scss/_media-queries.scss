@@ -1,0 +1,49 @@
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 375px) {
+    
+
+    
+
+    
+
+    .img-qs {
+        height: 170px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    
+    #seccion-1 {
+        background-image: url(../img/portadas/portada-home-sm-3.jpg);
+        height: 487px;
+    }
+    
+    .s1-wrapper {
+        padding-right: 16px;
+    }
+
+    .titulos-s1 {
+        font-size: 20px;
+    }
+
+    .botones {
+        font-size: 18px;
+    }
+
+    .iconos {
+        width: 28px;
+        height: 28px;
+    }
+
+    .img-qs {
+        height: 194px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    #seccion-1 {
+        background-image: url(../img/portadas/portada-home-sm-4.jpg);
+        height: 619px;
+    }
+}

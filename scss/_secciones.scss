@@ -34,22 +34,21 @@ body {
 
 
 #seccion-1 {
-    background-image: url(../img/portadas/portada-home-m.jpg);
+    background-image: url(../img/portadas/portada-home-sm-1.jpg);
     
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;
 
     width: 100%;
-    height: 100%;
+    height: 367px;
 
 
     .s1-wrapper {
         display: grid;
         justify-content: flex-end;
-        
-        grid-template-columns: 220px;
-        grid-template-rows: 260px 107px;
+
+        height: 100%;
 
 
         .s1-cont-1 {
@@ -61,7 +60,7 @@ body {
 
         .s1-cont-2 {
             display: flex;
-            justify-content: end;
+            justify-content: flex-end;
             align-items: flex-end;
             }
         
@@ -153,8 +152,6 @@ body {
     .img-qs {
         width: 100%;
         height: 145px;
-
-        opacity: 0.80;
     }
 }
 
